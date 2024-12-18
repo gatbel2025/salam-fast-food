@@ -1,13 +1,13 @@
 import React from "react";
 
 // Import images from assets folder
-import foodImage from "../assets/images/food-bg.png";
+import foodImage from "../assets/images/img.png";
 
 const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen flex flex-col lg:flex-row items-center justify-between bg-gray-100 relative mt-20 md:mt-32 mx-4 md:mx-8 lg:mx-20 p-4 md:p-8 lg:p-12 rounded-3xl shadow-lg overflow-hidden"
+      className="h-screen flex flex-col lg:flex-row items-center justify-between bg-gray-100 relative mb-4 mt-20 md:mt-32 p-4 md:p-8 lg:p-12 shadow-lg overflow-hidden"
     >
       {/* Left Side Content */}
       <div className="text-gray-800 max-w-lg text-center lg:text-left mb-10 lg:mb-0">
@@ -29,16 +29,13 @@ const Home = () => {
       </div>
 
       {/* Right Side Image */}
-      <div className="w-full sm:w-1/2 lg:w-1/3 flex justify-center">
+      <div className="w-full lg:w-1/2 flex justify-center">
         <img
           src={foodImage}
           alt="Delicious Food"
-          className="w-full h-auto max-h-[400px] object-contain rounded-3xl shadow-xl transition-transform duration-300 hover:scale-105"
+          className="w-full h-auto max-h-[400px] object-contain rounded-3xl transition-transform duration-300 hover:scale-105"
         />
       </div>
-
-      {/* Background Overlay for Modern Look */}
-      <div className="absolute inset-0 bg-green-100 opacity-10 rounded-3xl"></div>
     </section>
   );
 };

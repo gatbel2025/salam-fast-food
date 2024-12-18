@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
   return (
     <section
       id="why-choose-us"
-      className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center my-8 mx-8 py-0 rounded-2xl"
+      className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center mt-4 mb-4 justify-center py-0"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="bg-black bg-opacity-50 w-full h-full flex items-center justify-center text-white px-4 py-10 rounded-lg">

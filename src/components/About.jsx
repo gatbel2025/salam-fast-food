@@ -5,16 +5,16 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full min-h-screen bg-cover bg-center bg-no-repeat rounded-3xl overflow-hidden flex justify-center items-center p-4 md:p-8"
+      className="w-full min-h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Background Overlay */}
-      <div className="bg-black bg-opacity-60 w-full h-full flex justify-center items-center rounded-3xl">
-        <div className="max-w-4xl text-white px-6 py-8 md:px-12 md:py-12 rounded-xl bg-black bg-opacity-60 shadow-lg">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-green-500 mb-6 text-center md:text-left">
+      <div className="bg-black bg-opacity-60 w-full h-full p-4 md:p-8">
+        <div className="text-white px-4 py-6 md:px-8 md:py-8 bg-black bg-opacity-60 rounded-xl shadow-lg">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-green-500 mb-4">
             About Salam Fast Food Restaurant
           </h2>
-          <div className="text-sm sm:text-base md:text-lg leading-relaxed space-y-6 text-gray-200">
+          <div className="text-sm sm:text-base md:text-lg leading-relaxed space-y-4 text-gray-200">
             <p>
               <span className="text-green-400 font-semibold">
                 Salam Fast Food Restaurant

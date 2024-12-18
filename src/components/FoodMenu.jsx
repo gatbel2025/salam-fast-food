@@ -55,7 +55,7 @@ const FoodMenu = () => {
   return (
     <section
       id="food-menu"
-      className="w-full min-h-screen bg-gradient-to-b from-blue-200 via-white to-green-200 py-12 mb-16"
+      className="w-full min-h-screen bg-gradient-to-b from-blue-200 via-white to-green-200 py-12"
     >
       <div className="container mx-auto px-4">
         {/* Title */}
